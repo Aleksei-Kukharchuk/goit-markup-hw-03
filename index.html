@@ -16,34 +16,40 @@
   </head>
   <body>
     <!-- Шапка сайта -->
-    <header>
-      <div class="container">
+    <header class="header">
+      <div class="container header-container">
         <a href="./index.html" class="logo"
           >Web<span style="color: black;"> Studio</span></a
         >
-        <nav class="main-nav">
-          <ul class="list">
-            <li class="item">
-              <a href="./index.html">Студия</a>
+        <nav class="header__nav header-nav">
+          <ul class="header-nav__list header-nav-list">
+            <li class="header-nav-list__item header-nav-list-item">
+              <a href="./index.html" class="header-nav-list-item__link"
+                >Студия</a
+              >
             </li>
-            <li class="item">
-              <a href="./portfolio.html">Портфолио</a>
+            <li class="header-nav-list__item">
+              <a href="./portfolio.html" class="header-nav-list-item__link"
+                >Портфолио</a
+              >
             </li>
-            <li class="item">
-              <a href="">Контакты</a>
+            <li class="header-nav-list__item">
+              <a href="" class="header-nav-list-item__link">Контакты</a>
             </li>
           </ul>
         </nav>
         <address class="address">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a href="mailto:info@devstudio.com" class="adress_link"
+            >info@devstudio.com</a
+          >
+          <a href="tel:+380961111111" class="adress_link">+38 096 111 11 11</a>
         </address>
       </div>
     </header>
     <main>
       <!--Блок "Закзать услугу"-->
       <section class="order">
-        <h1>
+        <h1 class="order_tittle">
           ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА
         </h1>
         <button type="button" class="button">
@@ -53,35 +59,37 @@
       <!--Блок "Преимуществ"-->
       <section class="advantages">
         <div class="container">
-          <ul class="list">
-            <li class="item">
+          <ul class="advantages__list advantages-list">
+            <li class="advantages-list__item advantages-list-item">
               <img src="" alt="Иконка спутниковой антенны" width="70" />
-              <h3 class="tittle">Внимание к деталям</h3>
-              <p>
+              <h3 class="advantages-list-item__tittle">Внимание к деталям</h3>
+              <p class="advantages-list-item__text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="item">
+            <li class="advantages-list__item advantages-list-item">
               <img src="" alt="Иконка часов" width="70" />
-              <h3 class="tittle">Пунктуальность</h3>
-              <p>
+              <h3 class="advantages-list-item__tittle">Пунктуальность</h3>
+              <p class="advantages-list-item__text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="item">
+            <li class="advantages-list__item advantages-list-item">
               <img src="" alt="Иконка ноутбука" width="70" />
-              <h3 class="tittle">Планирование</h3>
-              <p>
+              <h3 class="advantages-list-item__tittle">Планирование</h3>
+              <p class="advantages-list-item__text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="item">
+            <li class="advantages-list__item advantages-list-item">
               <img src="" alt="Иконка астронавта" width="70" />
-              <h3 class="tittle">Современные технологии</h3>
-              <p>
+              <h3 class="advantages-list-item__tittle">
+                Современные технологии
+              </h3>
+              <p class="advantages-list-item__text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -90,96 +98,96 @@
         </div>
       </section>
       <!--Блок "Чем мы занимаемся"-->
-      <section class="our-work">
+      <section class="activity">
         <div class="container">
           <h2 class="section-tittle">Чем мы занимаемся</h2>
-          <ul class="list">
-            <li class="item">
+          <ul class="activity__list activity-list">
+            <li class="activity-list__item">
               <img
                 src="./images/what-we-do/box-1.jpg"
                 alt="Десктопные приложения"
                 width="380"
               />
-              <h3 class="tittle">Десктопные приложения</h3>
+              <h3 class="activity-list__tittle">Десктопные приложения</h3>
             </li>
-            <li class="item">
+            <li class="activity-list__item">
               <img
                 src="./images/what-we-do/box-2.jpg"
                 alt="Мобильные приложения"
                 width="380"
               />
-              <h3 class="tittle">Мобильные приложения</h3>
+              <h3 class="activity-list__tittle">Мобильные приложения</h3>
             </li>
-            <li class="item">
+            <li class="activity-list__item">
               <img
                 src="./images/what-we-do/box-3.jpg"
                 alt="Дизайнерские решения"
                 width="380"
               />
-              <h3 class="tittle">Дизайнерские решения</h3>
+              <h3 class="activity-list__tittle">Дизайнерские решения</h3>
             </li>
           </ul>
         </div>
       </section>
       <!--Блок "Наша команда"-->
       <section class="team">
-        <div class="container">
+        <div class="container team__container">
           <h2 class="section-tittle">Наша команда</h2>
-          <ul class="list">
-            <li class="item">
+          <ul class="team__list team-list">
+            <li class="team-list__item team-list-item">
               <img
                 src="./images/team/john-smith.jpg"
                 alt="John Smith"
                 width="277.5"
               />
-              <h3 class="name">John Smith</h3>
+              <h3 class="team-list-item__name">John Smith</h3>
               <p>Product Designer</p>
-              <ul class="socialmedia">
+              <ul class="team-list-item__social">
                 <li><a href="">Instagram</a></li>
                 <li><a href="">Twitter</a></li>
                 <li><a href="">Facebook</a></li>
                 <li><a href="">LinkedIn</a></li>
               </ul>
             </li>
-            <li class="item">
+            <li class="team-list__item">
               <img
                 src="./images/team/marta-stewart.jpg"
                 alt="Marta Stewart"
                 width="277.5"
               />
-              <h3 class="name">Marta Stewart</h3>
+              <h3 class="team-list-item__name">Marta Stewart</h3>
               <p>Frontend Developer</p>
-              <ul class="socialmedia">
+              <ul class="team-list-item__social">
                 <li><a href="">Instagram</a></li>
                 <li><a href="">Twitter</a></li>
                 <li><a href="">Facebook</a></li>
                 <li><a href="">LinkedIn</a></li>
               </ul>
             </li>
-            <li class="item">
+            <li class="team-list__item">
               <img
                 src="./images/team/robert-jakis.jpg"
                 alt="Robert Jakis"
                 width="277.5"
               />
-              <h3 class="name">Robert Jakis</h3>
+              <h3 class="team-list-item__name">Robert Jakis</h3>
               <p>Marketing</p>
-              <ul class="socialmedia">
+              <ul class="team-list-item__social">
                 <li><a href="">Twitter</a></li>
                 <li><a href="">Facebook</a></li>
                 <li><a href="">LinkedIn</a></li>
                 <li><a href="">Instagram</a></li>
               </ul>
             </li>
-            <li class="item">
+            <li class="team-list__item">
               <img
                 src="./images/team/martin-doe.jpg"
                 alt="Martin Doe"
                 width="277.5"
               />
-              <h3 class="name">Martin Doe</h3>
+              <h3 class="team-list-item__name">Martin Doe</h3>
               <p>UI Designer</p>
-              <ul class="socialmedia">
+              <ul class="team-list-item__social">
                 <li><a href="">Instagram</a></li>
                 <li><a href="">Twitter</a></li>
                 <li><a href="">Facebook</a></li>
@@ -191,25 +199,25 @@
       </section>
       <!--Блок "Постоянные клиенты"-->
       <section class="customers">
-        <div class="container">
+        <div class="container customers__container">
           <h2 class="section-tittle">Постоянные клиенты</h2>
-          <ul class="list">
-            <li class="item">
+          <ul class="customers__list customers-list">
+            <li class="customers-list__item">
               <a href=""><img src="" alt="Company 1" width="44,27" /></a>
             </li>
-            <li class="item">
+            <li class="customers-list__item">
               <a href=""><img src="" alt="Company 2" width="40" /></a>
             </li>
-            <li class="item">
+            <li class="customers-list__item">
               <a href=""><img src="" alt="Company 3" width="41" /></a>
             </li>
-            <li class="item">
+            <li class="customers-list__item">
               <a href=""><img src="" alt="Company 4" width="79,66" /></a>
             </li>
-            <li class="item">
+            <li class="customers-list__item">
               <a href=""><img src="" alt="Company 5" width="59" /></a>
             </li>
-            <li class="item">
+            <li class="customers-list__item">
               <a href=""><img src="" alt="Company 6" width="88,48" /></a>
             </li>
           </ul>
@@ -217,22 +225,28 @@
       </section>
     </main>
     <!-- Подвал сайта -->
-    <footer>
+    <footer class="footer">
       <div class="container">
-        <div class="nav">
-          <div class="logo-adress">
-            <a href="index.html" class="logo"
+        <div class="footer__nav footer-nav">
+          <div class="footer-nav__logo-address">
+            <a href="index.html" class="logo footer-logo"
               >Web<span style="color: white;"> Studio</span></a
             >
-            <address class="address">
-              <p>г. Киев, пр-т Леси Украинки, 26</p>
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-              <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <address class="address footer-address">
+              <p class="footer-address__text">
+                г. Киев, пр-т Леси Украинки, 26
+              </p>
+              <a href="mailto:info@devstudio.com" class="footer-address__link"
+                >info@devstudio.com</a
+              >
+              <a href="tel:+380961111111" class="footer-address__link"
+                >+38 096 111 11 11</a
+              >
             </address>
           </div>
-          <div class="social">
-            <p class="tittle">присоединяйтесь</p>
-            <ul class="list">
+          <div class="footer-nav__social footer-nav-social">
+            <p class="footer-nav-social__tittle">присоединяйтесь</p>
+            <ul class="footer-nav-social__list">
               <li class="item">
                 <a href="">Instagram</a>
               </li>
@@ -241,12 +255,12 @@
               <li class="item"><a href="">LinkedIn</a></li>
             </ul>
           </div>
-          <div class="subscribe">
+          <div class="footer-nav__subscribe">
             <p>Подпишитесь на рассылку</p>
           </div>
         </div>
         <div class="copyright">
-          <p>2020 | Developed by GoIT Students</p>
+          <p class="copyright__text">2020 | Developed by GoIT Students</p>
         </div>
       </div>
     </footer>
