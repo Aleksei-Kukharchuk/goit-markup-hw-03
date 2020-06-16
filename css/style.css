@@ -49,6 +49,8 @@ ul {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /*Шапка сайта*/
